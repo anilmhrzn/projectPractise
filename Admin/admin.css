@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+div{
+    background-image: url("chowmein.jpg");
+}
+#navBar {
+  list-style-type: none;
+  position: relative;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(179, 185, 185);
+}
+.navList>a{
+    text-decoration: none;
+    color: tomato;
+}
+.navList {
+    padding: 1vw 2vw;
+    cursor: pointer;
+  
+}
+.navList:hover {
+  background-color: black;
+  
+}

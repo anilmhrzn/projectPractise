@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background-color: #50525554; */
+  background-image: linear-gradient(to bottom, white, #50525554);
+  
+  /* background-image: linear-gradient(to bottom, #50525554, white); */
+
+}
+nav {
+  background-image: url("navBackground.jpg");
+  height: 45vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+  font-family: "Sofia", cursive;
+  color: black;
+  border-radius: 0.8rem;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: rgba(245, 237, 237, 0.5);
+}
+#coName {
+  margin-left: 5px;
+  
+}
+#login {
+  margin-right: 0.5rem;
+}
+#loginIcon {
+  text-align: center;
+  margin-right: 1vw;
+}
+input[id="foodName"] {
+  width: 60vw;
+  height: 5vh;
+  border: 1px;
+  padding: 16px;
+  border-radius: 20px;
+}
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#mainContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6vh;
+  font-size: 2rem;
+}
+.mainImgs {
+  height: 20vw;
+  width: 20vw;
+  size: 100%;
+  padding: 10px;
+  
+}
+
+.containerSections {
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, white, #50525554);
+}
+.btns {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.btns:hover {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, white, #50525554);
+}
+#lastContainer {
+  margin: 15vh;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#lastContainer {
+  display: flex;
+  justify-content: space-between;
+}
